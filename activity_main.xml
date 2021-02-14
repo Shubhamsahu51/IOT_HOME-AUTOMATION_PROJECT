@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/fan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:text="FAN"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS"
+        android:textSize="30sp"
+        android:layout_below="@+id/on"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/fan_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/status"
+        android:text="FAN STATUS:-"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:textSize="30sp"
+        android:layout_below="@+id/fan"/>
+    <Button
+        android:id="@+id/off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:textSize="30sp"
+        android:layout_below="@+id/fan"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

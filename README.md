@@ -1,12 +1,12 @@
 # IOT_HOME-AUTOMATION_PROJECT
 
-I have to build a smart home automation system. This automation system that you build can be
+I have built a smart home automation system. This automation system that i have built can be
 integrated with almost all the lab appliances(fans,lights etc.) and can be used to control them remotely from any
-part of the world.This system will have an Android Application . By using this app, you will be able to monitor
+part of the world.This system will have an Android Application . By using this app,i will be able to monitor
 and control the lab appliances from anywhere in the world with ease.
 For the same :
 
-# 1. I have  develop an android application which will :
+# 1. I have develop an android application which will :
 
 a) Send data to cloud: To set the control command for the appliances.
 
